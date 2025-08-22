@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:8000/api',
+  baseURL: 'https://invoiceappbackend-production-b157.up.railway.app/api',
 });
 
 API.interceptors.request.use((config) => {
