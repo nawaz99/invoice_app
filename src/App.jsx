@@ -12,7 +12,8 @@ import CompanySettingsForm from "./components/CompanySettingsForm";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(
-     !!localStorage.getItem("token")
+    //  !!localStorage.getItem("token")
+    true
   );
 
   return (
